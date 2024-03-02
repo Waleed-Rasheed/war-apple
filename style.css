@@ -1,0 +1,181 @@
+.header{
+    background-color: #111112;
+    height: 3vw;
+
+}
+.fa-apple{
+
+    font-size: 18px;
+    color: gainsboro;
+}
+.fa-apple:hover{
+    color: white;
+}
+.fa-solid{
+    font-size: 15px;
+    color: gainsboro;
+}
+.fa-solid:hover{
+    color: white;
+}
+.dropdown-menu{
+    background-color: #111112;
+    width: 500px;
+}
+.dropdown-menu .dropdown-item{
+    color: white;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-item:hover{
+    color: black;
+
+}
+.part-1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://www.apple.com/v/home/bk/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
+    background-position: center;
+}
+
+.text-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    color: #fff;
+}
+
+.text-part-1 h1{
+    font-size: 3vw;
+}
+
+.text-part-1 p{
+    font-size: 1.6vw;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(26, 141, 242);
+    font-size: 1.2vw;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+.part-2{
+    background-image: url(https://www.apple.com/v/home/bk/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_medium.jpg);
+}
+
+.text-part-2{
+    color: #333;
+}
+
+.part-3{
+    height: 80vh;
+    background-image: url(https://media.licdn.com/dms/image/D4D12AQFUyu5u7N4tjQ/article-cover_image-shrink_720_1280/0/1686207741836?e=2147483647&v=beta&t=iJNP8YBJ76W5XQwoA5OkGhRcRdwo2rOb6K8ycvJQOJI);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-color: #F3F3F5;
+
+}
+.text-part-3{
+    top: 77%;
+    color: black;
+}
+
+.part-4{
+    display: flex;
+    width: 100%;
+}
+
+.part-4-1{
+    margin-top: 5px;
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium.jpg);
+}
+
+.part-4-2{
+    margin-top: 5px;
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_medium.jpg);
+}
+
+.part-4 .text-part-1{
+    color: white;
+    top: 4%;
+}
+
+.part-4 .text-part-1 p{
+    font-size: 1.5vw;
+}
+.text-part-3 img{
+    width: 120px;
+}
+.part-4 .text-part-4{
+    color: black;
+    top: 4%;
+}
+
+.part-4-3{
+    margin-top: 5px;
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/ipad/promo_ipad__fioegapg12qi_medium.jpg);
+}
+
+.part-4-4{
+    margin-top: 5px;
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_medium.jpg);
+}
+
+.part-4-5{
+    margin-top: 5px;
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/apple-card/tile__cauwwcyyn9hy_medium.jpg);
+}
+
+.part-4-6{
+    margin-top: 5px;
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+}
+.text-part-5 img{
+    width: 90px;
+}
+
+.text-part-6 img{
+    margin-left: 150px;
+    width: 300px;
+}
+.container p{
+    font-size: 12px;
+    margin-top: 20px;
+    color: gray;
+}
