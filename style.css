@@ -3,6 +3,9 @@
     height: 3vw;
 
 }
+.collapse{
+    background-color: #111112;
+}
 .fa-apple{
 
     font-size: 18px;
@@ -39,17 +42,20 @@
     justify-content: center;
     width: 100%;
     height: 70vh;
-    background-image: url(https://www.apple.com/v/home/bk/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
     background-position: center;
+    background-repeat: no-repeat;
 }
-
+#partO{
+    background-image: url(https://www.apple.com/v/home/bk/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
+    background-color: black;
+}
 .text-part-1{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    top: 10%;
+    margin-bottom: 15%;
     color: #fff;
 }
 
@@ -79,6 +85,8 @@
 }
 .part-2{
     background-image: url(https://www.apple.com/v/home/bk/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_medium.jpg);
+    background-repeat: no-repeat;
+    background-color: #F3F3F5;
 }
 
 .text-part-2{
@@ -104,7 +112,8 @@
 }
 
 .part-4-1{
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 60vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -112,7 +121,8 @@
 }
 
 .part-4-2{
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 60vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -136,7 +146,8 @@
 }
 
 .part-4-3{
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 60vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -144,7 +155,8 @@
 }
 
 .part-4-4{
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 60vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -152,7 +164,8 @@
 }
 
 .part-4-5{
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 60vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -160,7 +173,8 @@
 }
 
 .part-4-6{
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 60vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -178,4 +192,33 @@
     font-size: 12px;
     margin-top: 20px;
     color: gray;
+    
+}
+.text-body{
+    text-decoration: none;
+}
+.text-body:hover{
+    text-decoration: underline;
+}
+@media (max-width:768px){
+    .part-4{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .part-4 .text-part-1 p{
+        font-size: 4vw;
+    }
+    .part-4 .text-part-1 .link a{
+        font-size: 2.8vw;
+    }
+
+}
+@media (max-width:400px){
+    .part-4{
+        flex-direction: column;
+    }
+    .part-4 .text-part-1 p{
+        font-size: 4vw;
+    }
 }
